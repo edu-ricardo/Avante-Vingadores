@@ -1,8 +1,9 @@
 (function (){
 
-
+	// Cria aplicação de angular js
 	var app = angular.module('avante', []);
 
+	// Cria controller principal
 	app.controller('BodyCtrl', ['$http', function($http){
 		this.titulo = "Avante Vingadores";
 
@@ -33,8 +34,14 @@
 		    }
 		    return "";
 		}
-
-
 	}]);
+
+	// Cria diretiva do menu
+	app.directive('menuPrincipal', function(){
+		return {
+			restrict: 'E', 
+			templateUrl: 'menu-principal.html'
+		};
+	});
 
 })();
