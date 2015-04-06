@@ -45,6 +45,7 @@ template {
 }
 a {
   background-color: transparent;
+  
 }
 a:active,
 a:hover {
@@ -1101,7 +1102,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #ff0000;
   text-decoration: none;
 }
 a:hover,
@@ -3312,7 +3313,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-link {
   font-weight: normal;
-  color: #337ab7;
+  color: #FF0000;
   border-radius: 0;
 }
 .btn-link,
@@ -3332,7 +3333,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #23527c;
+  color: #FF2222;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4000,7 +4001,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #FF0000;
 }
 .nav-stacked > li {
   float: none;

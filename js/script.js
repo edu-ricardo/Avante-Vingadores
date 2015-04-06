@@ -44,4 +44,12 @@
 		};
 	});
 
+	// Cria diretiva do rodapé
+	app.directive('footerPrincipal', function(){
+		return {
+			restrict: 'E', 
+			templateUrl: 'footer-principal.html'
+		};
+	});
+
 })();
