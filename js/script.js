@@ -7,15 +7,6 @@
 	app.controller('BodyCtrl', ['$http', function($http){
 		this.titulo = "Avante Vingadores";
 
-
-		if (getCookie('nome') == '') {
-			var ckNome = prompt("Insira seu nome: ");
-			this.nome = ckNome;
-			setCookie('nome', ckNome, 30);
-		} else {
-			this.nome = getCookie('nome');
-		};
-
 		function setCookie(cname, cvalue, exdays) {
 		    var d = new Date();
 		    d.setTime(d.getTime() + (exdays*24*60*60*1000));
